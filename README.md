@@ -1,35 +1,17 @@
-# fileservice-front
+# File Service - front
+The simple file service for the store files
 
-This template should help get you started developing with Vue 3 in Vite.
+## Stack version
+1. Vue 3.4.21
+2. Node 19.5.0
+3. Vuetify 3.5.16
 
-## Recommended IDE Setup
+## Install / run
+1. git clone https://github.com/morrasan/fileservice-front.git
+2. docker compose up
+3. open browser http://localhost:3023
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Environment
+1. port 3023
+2. http://localhost:8000 - API_URL 
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
