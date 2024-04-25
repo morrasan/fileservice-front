@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+  fileservice-front:
+    hostname: fileservice-front
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    working_dir: /app
+    ports:
+      - "3023:3023"
